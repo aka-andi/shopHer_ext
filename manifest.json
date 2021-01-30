@@ -1,0 +1,8 @@
+{
+
+    "manifest_version": 2,
+    "name": "HackViolet Extension",
+    "version": "1.0",
+    "description": "Women-Owned Business Alternatives",
+    "icons": { "128": "./images/lotusWhite.png" }
+}
