@@ -16,4 +16,3 @@ Chrome extension to integrate with web-app focused on empowering women-owned bus
 
 # inspiration
 the [honey chrome extension](https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj?hl=en-US)
-![honey](./images/honey.JPG)
