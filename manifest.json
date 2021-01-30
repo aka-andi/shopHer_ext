@@ -4,5 +4,20 @@
     "name": "HackViolet Extension",
     "version": "1.0",
     "description": "Women-Owned Business Alternatives",
+    "background": {
+        "persistent": false,
+        "scripts": ["./src/background.js"]
+    },
+    "browser_action": {
+        "default_title": "Women-Owned Business Alternatives",
+        "default_popup": "./src/popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "tabs",
+        "storage"
+        
+    ],
     "icons": { "128": "./images/lotusWhite.png" }
 }
