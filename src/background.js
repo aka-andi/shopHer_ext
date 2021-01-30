@@ -1,3 +1,5 @@
+import { apiKey as _apiKey} from '../config';
+
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     if (tab.url.startsWith('https://www.amazon.com/')) {
         // grab the ASIN of the product on the Amazon page to make the API call
