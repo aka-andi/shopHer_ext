@@ -60,3 +60,100 @@ button {
 button:hover {
     color: #333;
 }
+
+
+/* Heading */
+
+h3 {
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+}
+
+input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+}
+
+input[type="text"]:focus {
+    color: #333;
+}
+
+
+/* Task list */
+
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 20 0 20 11px;
+}
+
+img {
+    width: 42px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* Footer */
+
+a.webapp {
+    font-size: larger;
+}
+
+a:link {
+    color: rgb(173, 93, 157);
+}
+
+a:visited {
+    color: rgb(119, 77, 111);
+}
+
+a:hover {
+    color: rgb(211, 142, 197);
+}
+
+.footer {
+    margin-top: 32px
+}
+
+/* Loader */
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid gray; /* Blue */
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    animation: spin 1s linear infinite;
+    display: block;
+    margin: 20px auto 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.loading {
+    margin-top: 48px;
+}
+.loading p{
+    text-align: center;
+}
