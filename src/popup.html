@@ -1,0 +1,51 @@
+<!-- =================================
+HackViolet Extension
+================================= //-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HackViolet Extension</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<div class="bar" style="display:inline-block; width:100%">
+    <img src="../images/lotusWhite.png" alt="lotus">
+    <h1>ShopHer</h1>
+</div>
+
+<body>
+    
+    <div class="container">
+        <div id='main' class="loading">
+            <div class="loader"></div>
+            <p>Loading...</p>
+        </div>
+
+        <div id="results" style="display:none">
+            <p><strong>Category: </strong><span class="category"></span></p>
+
+            <h3>We found some women-owned business alternatives for you...</h3>
+            <ul class="businesses"></ul>
+        </div>
+
+        <div id="none" style="display:none">
+            <p><strong>Category: </strong><span class="category2"></span></p>
+        </div>
+
+        <div class="footer">
+            <a class="webapp" href="https://www.google.com">Visit our webapp to view more.</a>
+        </div>
+
+    </div>
+
+    <script type="module" src="./popup.js"></script>
+
+</body>
+
+</html>
